@@ -28,7 +28,7 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
-.text-center {
+.introduction {
   position: absolute;
   top: 50%;
   left: 50%;
