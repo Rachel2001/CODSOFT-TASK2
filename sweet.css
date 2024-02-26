@@ -192,7 +192,7 @@ p {
 }
 
 .project-image {
-  width: 300px;
+  width: 350px;
   height: 200px;
   margin-top: 20px;
 }
@@ -271,4 +271,16 @@ p {
 .btn-project:hover:before {
   width: 115%;
   height: 115%;
+}
+
+.contact {
+  background-color: #006D9E;
+}
+
+.container-contact {
+  text-align: center;
+}
+
+.container-contact a {
+  color: white;
 }
