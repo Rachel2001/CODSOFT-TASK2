@@ -39,6 +39,17 @@ nav a {
   font-size: 24px;
 }
 
+h2 {
+  margin-bottom: 20px; 
+}
+
+btn {
+  position: relative;
+  top: 20px;
+}
+
+
+
 .container-work {
   position: relative;
   display: inline-block;
@@ -56,4 +67,3 @@ nav a {
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
 }
-
