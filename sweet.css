@@ -151,6 +151,38 @@ h2 {
   animation-duration: 3s;
 }
 
+.about {
+  background-color: #FDE900;
+}
+
+.about-picture {
+  width: 500px;
+  height: 500px;
+}
+
+.animate__backInUp {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: backInUp;
+  animation-duration: 2s; 
+}
+
+.skills {
+  background-color: #D50324;
+}
+
+.education-img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+  transition: transform 0.3s; 
+} 
+
+.education-img:hover {
+  transform: scale(1.1) translateY(-10px);
+}
+
 
 .container-work {
   position: relative;
