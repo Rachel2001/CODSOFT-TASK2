@@ -156,8 +156,9 @@ h2 {
 }
 
 .about-picture {
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  height: auto;
+  max-width: 500px;
 }
 
 .animate__backInUp {
@@ -173,8 +174,9 @@ h2 {
 }
 
 .education-img {
-  width: 300px;
-  height: 200px;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
   margin-bottom: 10px;
   transition: transform 0.3s;
 }
@@ -185,6 +187,10 @@ h2 {
 
 .work {
   background-color: #903372;
+}
+
+.container-work {
+  padding: 20px;
 }
 
 p {
@@ -283,4 +289,30 @@ p {
 
 .container-contact a {
   color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 769px) {
+  .contact-btn {
+    top: 50px;
+  }
+
+  .about,
+  .skills {
+    padding: 20px;
+  }
+
+  .about-picture,
+  .education-img {
+    max-width: 100%;
+  }
+
+  .container-work {
+    padding: 10px;
+  }
+
+  .col-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
